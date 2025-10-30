@@ -1,0 +1,48 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 28,
+
+  "modules-left": ["custom/screen1", "custom/screen2", "custom/screen3", "custom/screen4"],
+  "modules-right": ["pulseaudio", "battery", "clock"],
+
+  "custom/screen1": {
+    "format": "󰍹  1",
+    "on-click": "hyprctl dispatch focusmonitor 0",
+    "tooltip": "Monitor 1"
+  },
+  "custom/screen2": {
+    "format": "󰍺  2",
+    "on-click": "hyprctl dispatch focusmonitor 1",
+    "tooltip": "Monitor 2"
+  },
+  "custom/screen3": {
+    "format": "󰍻  3",
+    "on-click": "hyprctl dispatch focusmonitor 2",
+    "tooltip": "Monitor 3"
+  },
+  "custom/screen4": {
+    "format": "󰍼 4",
+    "on-click": "hyprctl dispatch focusmonitor 3",
+    "tooltip": "Monitor 4"
+  },
+
+  "pulseaudio": {
+    "format": "  {volume}%",
+    "format-muted": " mute",
+    "scroll-step": 5,
+    "on-click": "pavucontrol"
+  },
+
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": ["󰁺", "󰁼", "󰁿", "󰂁", "󰁹"],
+    "tooltip": true
+  },
+
+  "clock": {
+    "format": "  {:%H:%M}",
+    "tooltip": false
+  }
+}
+

@@ -1,0 +1,39 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 12px;
+  border: none;
+}
+
+window#waybar {
+  background-color: #0d0d0d;
+  color: #e5e5e5;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 0;
+}
+
+#custom-screen1,
+#custom-screen2,
+#custom-screen3,
+#custom-screen4 {
+  padding: 0 12px;
+  margin: 0 3px;
+  border-radius: 8px;
+  color: white;
+}
+
+#custom-screen1:hover,
+#custom-screen2:hover,
+#custom-screen3:hover,
+#custom-screen4:hover {
+  color: #b4befe;
+}
+
+#pulseaudio,
+#battery,
+#clock {
+  padding: 0 10px;
+  margin: 0 4px;
+  border-radius: 8px;
+}
+

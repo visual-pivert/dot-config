@@ -1,0 +1,9 @@
+show=drun
+prompt=Run:
+lines=8
+width=40%
+location=center
+hide_scroll=true
+no_actions=true
+allow_images=true
+insensitive=true
