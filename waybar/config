@@ -7,29 +7,29 @@
   "modules-right": ["pulseaudio", "battery", "clock"],
 
   "custom/screen1": {
-    "format": "󰍹  1",
+    "format": "󰈹  1",
     "on-click": "hyprctl dispatch focusmonitor 0",
-    "tooltip": "Monitor 1"
+    "tooltip": "Navigateur"
   },
   "custom/screen2": {
-    "format": "󰍺  2",
+    "format": "󰨞  2",
     "on-click": "hyprctl dispatch focusmonitor 1",
-    "tooltip": "Monitor 2"
+    "tooltip": "Code"
   },
   "custom/screen3": {
-    "format": "󰍻  3",
+    "format": "  3",
     "on-click": "hyprctl dispatch focusmonitor 2",
-    "tooltip": "Monitor 3"
+    "tooltip": "Terminal"
   },
   "custom/screen4": {
-    "format": "󰍼 4",
+    "format": "󰎜  4",
     "on-click": "hyprctl dispatch focusmonitor 3",
-    "tooltip": "Monitor 4"
+    "tooltip": "Notes"
   },
 
   "pulseaudio": {
-    "format": "  {volume}%",
-    "format-muted": " mute",
+    "format": "󰕾  {volume}%",
+    "format-muted": "󰝟 mute",
     "scroll-step": 5,
     "on-click": "pavucontrol"
   },
@@ -41,8 +41,7 @@
   },
 
   "clock": {
-    "format": "  {:%H:%M}",
+    "format": "󰥔  {:%H:%M}",
     "tooltip": false
   }
 }
-
