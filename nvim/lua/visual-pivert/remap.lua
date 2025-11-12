@@ -2,7 +2,6 @@ local mark = require("harpoon.mark")
 local ui = require("harpoon.ui")
 local builtin = require('telescope.builtin')
 
-vim.g.mapleader = " "
 
 -- ================================
 -- 🌍 Project keybindings
